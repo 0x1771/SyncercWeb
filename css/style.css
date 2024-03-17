@@ -19408,7 +19408,7 @@ img {
   }
 
   #mainmenu li ul {
-    display: block;
+    display: none;
     position: inherit;
     margin: 0;
     width: 100%;
