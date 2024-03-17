@@ -1124,24 +1124,6 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
   float: left;
 }
 
-header.header-mobile.header-light,
-header.header-mobile.header-light #menu-btn,
-header.header-mobile.header-light #menu-btn:hover {
-  background: none;
-}
-
-header.header-mobile.header-light #menu-btn {
-  color: #222;
-}
-
-
-header.header-mobile.header-center #logo{
-  display: block;
-}
-
-header.header-mobile.header-center #logo-center{
-  display: none;
-}
 
 /* user account menu */
 
@@ -1655,18 +1637,10 @@ header.s2 #mainmenu>li>a {
   border-bottom: solid 1px rgba(255, 255, 255, .1);
 }
 
-.side-layout header.smaller.header-dark #mainmenu>li:last-child {
-  border-bottom: none;
+    .side-layout header.smaller.header-dark #mainmenu>li:last-child {
+    border-bottom: none;
 }
 
-header.header-mobile {
-    background: rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    border-radius: 45px;
-    position: fixed !important;
-    top: 0;
-    padding-bottom: 10px;
-}
 
 
 header.header-solid.header-light {
@@ -9742,14 +9716,6 @@ a.btn-fx:hover:before,
   outline: none;
 }
 
-header.header-mobile #mainmenu>li>span {
-  -o-transition: none;
-  -ms-transition: none;
-  -moz-transition: none;
-  -webkit-transition: none;
-  transition: none;
-  outline: none;
-}
 
 @-webkit-keyframes scaleIn {
   from {
@@ -19335,6 +19301,7 @@ img {
 
   header.header-mobile-sticky {
     position: fixed;
+    opacity: 0;
   }
 
   #subheader.s2 {
