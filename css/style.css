@@ -253,6 +253,7 @@ header.transparent {
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
   background: rgba(255, 255, 255, 0.0);
+  opacity: 0;
 }
 
 header.autoshow {
@@ -1086,7 +1087,7 @@ header.header-light #mainmenu a {
 
 header.header-mobile #mainmenu>li ul.mega {
   visibility: visible;
-  opacity: 1;
+  opacity: 0;
 }
 
 header:not(.header-mobile) #mainmenu>li:hover ul.mega {
@@ -19210,7 +19211,6 @@ img {
 
   header,
   header.fixed {
-    display: block;
     position: inherit;
     margin: 0;
     padding: 0;
