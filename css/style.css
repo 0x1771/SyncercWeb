@@ -1670,13 +1670,15 @@ header.header-mobile.menu-open {
 }
 
 header.header-mobile .container {
+  background: transparent;
   max-width: 100% !important;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .dark-scheme header.header-mobile {
-  background: var(--bg-dark-1);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 45px;
 }
 
 header.header-mobile.has-topbar .header-row,
@@ -11863,7 +11865,7 @@ footer .tiny-border span {
 }
 
 .side-layout.side-custom-bg header {
-  background: url(../images/bg-header.html) top left;
+  background: url(../images/background/bg-header.html) top left;
   background-size: cover;
 }
 
