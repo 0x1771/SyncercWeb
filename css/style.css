@@ -19169,7 +19169,7 @@ img {
   }
 
   #menu-btn {
-    display: block;
+    display: none;
     float: right;
     z-index: 1000;
     top: 0;
@@ -19216,7 +19216,7 @@ img {
     margin: 0;
     padding: 0;
     margin-top: 0;
-    height: auto;
+    height: 0px;
     background: none;
   }
 
