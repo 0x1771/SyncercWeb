@@ -7,7 +7,8 @@
   --secondary-color-rgb: 87, 90, 255;
   --tertiary-color: #097dff;
   --tertiary-color-rgb: rgba(9, 125, 255, 1.0);
-  --bg-dark-1: #000002;
+  --bg-dark-1: #00000200;
+  --bg-dark-trans: #0000001e;
   --bg-dark-1-rgb: 0 ,0 ,2;
   --bg-dark-2: #060608;
   --bg-dark-3: #383339;
