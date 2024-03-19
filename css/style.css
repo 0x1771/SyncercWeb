@@ -14627,27 +14627,6 @@ a.read_more i {
   margin-left: 0;
 }
 
-.de_countdown {
-  text-align: right;
-  background: #ffffff;
-  border-radius: 30px;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
-  z-index: 100;
-  padding: 0 0 10px 0;
-}
-
-.dark-scheme .de_countdown {
-  color: #fff;
-  background: none;
-}
-
-.countdown-section {
-  font-size: 28px;
-  margin-left: 8px;
-  font-weight: bold;
-}
-
 
 .d_profile {
   margin-bottom: 40px;
@@ -16807,21 +16786,6 @@ img {
     right: 60px;
     width: 140px;
   }
-
-  .countdown-s2 .countdown-show4 .countdown-section {
-    width: 60px;
-    padding:5px;
-    margin:5px;
-  }
-
-  .countdown-s2 .countdown-period{
-    font-size:10px;
-  }
-
-  .countdown-s2 .countdown-amount {
-    font-size: 20px;
-  }
-
 
   .mb-sm-20 {
     margin-bottom: 20px;
