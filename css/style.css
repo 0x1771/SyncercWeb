@@ -12150,64 +12150,6 @@ i.big {
   width: 120px;
 }
 
-.schedule-item {
-  padding: 40px;
-}
-
-.schedule-listing:nth-child(even) {
-  background: rgba(var(--primary-color-rgb), .5);
-}
-
-.schedule-item>div {
-  float: left;
-}
-
-.schedule-item .sc-time {
-  width: 160px;
-  padding-top: 25px;
-  color: #ffffff;
-}
-
-.schedule-item .sc-pic {
-  width: 120px;
-}
-
-.schedule-item .sc-pic img {
-  width: 80px;
-  height: auto;
-  -webkit-box-shadow: 8px 8px 0 0px var(--primary-color);
-  -moz-box-shadow: 8px 8px 0 0px var(--primary-color);
-  box-shadow: 8px 8px 0 0px var(--primary-color);
-}
-
-.schedule-item .sc-name {
-  font-weight: normal;
-  font-size: 14px;
-  width: 160px;
-  padding-top: 15px;
-}
-
-.schedule-item .sc-name h4 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  line-height: 1.6em;
-}
-
-.schedule-item .sc-name span {
-  font-weight: normal;
-}
-
-.schedule-item .sc-info {
-  float: none;
-  display: inline-block;
-  width: 60%;
-}
-
-.schedule-item .sc-info h4 {
-  margin-bottom: 10px;
-}
-
 .de_tab.tab_style_4 .de_nav {
   -webkit-touch-1A1C26out: none;
   /* iOS Safari */
@@ -16245,84 +16187,6 @@ a.btn-slider:hover {
 
 /* flex slider - testi slider */
 
-#testimonial-full {
-  text-align: center;
-  padding: 10px 0 10px 0;
-  text-shadow: none;
-}
-
-#testimonial-full blockquote {
-  color: #fff;
-  border: none;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.5em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-#testimonial-full span {
-  letter-spacing: 0;
-  margin-top: 20px;
-  text-transform: none;
-}
-
-.testi-slider .flex-control-nav {
-  position: absolute;
-  margin-top: -50px;
-}
-
-.testi-slider .flex-direction-nav {
-  display: none;
-}
-
-/* Control Nav */
-
-.testi-slider .flex-control-nav {
-  width: 100%;
-  position: absolute;
-  bottom: -40px;
-  text-align: center;
-}
-
-.testi-slider .flex-control-nav li {
-  margin: 0 6px;
-  display: inline-block;
-  zoom: 1;
-  display: inline;
-}
-
-.testi-slider .flex-control-paging li a {
-  background: none;
-  width: 8px;
-  height: 8px;
-  display: block;
-  border: solid 1px #fff;
-  cursor: poInter;
-  text-indent: -9999px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -o-box-shadow: none;
-  box-shadow: none;
-}
-
-.testi-slider .flex-control-paging li a:hover {
-  border: solid 1px #fff;
-  background: #fff;
-}
-
-.testi-slider .flex-control-paging li a.flex-active {
-  border: solid 1px #fff;
-  cursor: default;
-  background: #fff;
-}
-
 .size10 {
   font-size: 10px;
 }
@@ -17187,10 +17051,6 @@ img {
 
   .d-btn-close {
     position: relative;
-  }
-
-  .schedule-item .sc-info {
-    padding-top: 20px;
   }
 
   .de_tab.tab_style_4 .de_nav li {
