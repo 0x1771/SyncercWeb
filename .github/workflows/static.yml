@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire project, including pre-built images directory (adjust path)
-          path: 'images/**'  # Example path for built images
+          path: 'images/'  # Example path for built images
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
